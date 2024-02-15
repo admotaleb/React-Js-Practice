@@ -1,7 +1,12 @@
+import Hook_handel from "./Hook_handel/index1";
+import Hook_handel2 from "./Hook_handel/index2";
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Hook_handel/>
+      <Hook_handel2/>
     </div>
   );
 }
